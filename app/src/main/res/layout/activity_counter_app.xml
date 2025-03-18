@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityCounterApp">
+
+
+    <TextView
+        android:paddingTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CounterApp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kurang"
+            android:textColor="#ffffff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_button"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/angka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Mulai Angka"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tambah"
+            android:background="@drawable/ic_button"
+            android:textColor="#ffffff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="+"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

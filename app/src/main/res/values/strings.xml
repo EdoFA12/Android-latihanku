@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KotlinKalkulator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Key"> hallo</string>
+    <string name="name_list">es kopi susu</string>
+
+    <string-array name="item_category">
+        <item>Makanan</item>
+        <item>Minuman</item>
+    </string-array>
+</resources>
